@@ -1,4 +1,4 @@
-import Button from "../UI/Button";
+import Button from "./Button";
 
 function Main() {
   return (
