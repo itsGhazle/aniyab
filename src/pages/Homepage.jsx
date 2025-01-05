@@ -1,3 +1,4 @@
+import Associates from "../UI/Associates";
 import CustomersStories from "../UI/CustomersStories";
 import FrequentlyAskedQuestions from "../UI/FrequentlyAskedQuestions";
 import Header from "../UI/Header";
@@ -14,6 +15,7 @@ function Homepage() {
       <Services />
       <FrequentlyAskedQuestions />
       <CustomersStories />
+      <Associates />
     </div>
   );
 }

@@ -3,9 +3,9 @@ import Button from "./Button";
 function Footer() {
   return (
     <footer className=" flex flex-col flex-1 p-8 md:flex-row gap-4">
-      <div className="flex flex-col justify-start gap-y-3 w-1/3">
+      <div className="flex flex-col justify-start gap-y-3 md:w-1/3">
         <h3 className="font-semibold">درباره آنی یاب</h3>
-        <p className="md:w-72">
+        <p className="w-full md:w-72">
           تیم ما هسته اصلی توسعه موفقیت آمیز ما است،به همین دلیل است که برند
           Aniyab معرف سریع یافتن هر چیزی است، ما در طی سیزده سال فعالیت توانسته
           ایم قدم های موثری در ارائه خدمات پیدا کردن سریع را رونمایی کنیم.

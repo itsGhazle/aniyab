@@ -2,7 +2,7 @@ function Services() {
   return (
     <>
       <h2 className="text-center font-bold text-xl mb-4">خدمات ارزشمند</h2>
-      <section className="flex flex-col justify-between content-between	items-center gap-8  md:flex-row md:justify-evenly my-auto">
+      <section className="flex flex-col justify-between content-between	items-center gap-8  md:flex-row md:justify-evenly my-4">
         <div className="w-64 h-64 border rounded-lg bg-slate-50 p-6">
           <img src="public/insurance.png" alt="" />
           <p className="mt-4 text-center">
@@ -22,7 +22,6 @@ function Services() {
           </p>
         </div>
       </section>
-      ;
     </>
   );
 }

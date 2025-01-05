@@ -5,6 +5,7 @@ function Button({ children, type }) {
   const styles = {
     primary: base,
     secondary: base + " mt-2 px-4 py-3 md:px-6 md:py-4",
+    Tertiary: base + " w-36 py-2 mt-2",
   };
   return <button className={styles[type]}>{children} </button>;
 }
