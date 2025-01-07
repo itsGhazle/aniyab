@@ -1,7 +1,7 @@
 function Logo() {
   return (
     <>
-      <img src="public/logoaniab.png" className="w-auto h-8" />
+      <img src="public/sizeSmall.svg" className="w-7 h-8" />
     </>
   );
 }

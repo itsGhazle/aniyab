@@ -5,7 +5,11 @@ export default {
     fontFamily: {
       sans: "Vazirmatn, serif",
     },
-    extend: {},
+    extend: {
+      spacing: {
+        72: "18rem",
+      },
+    },
   },
   plugins: [],
 };

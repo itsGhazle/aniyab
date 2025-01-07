@@ -18,3 +18,12 @@ body {
   font-weight: 400;
   line-height: 1.6;
 }
+.circle {
+  width: 706.02px;
+  height: 706.02px;
+  transform: rotate(15deg);
+  transform-origin: 0 0;
+  box-shadow: 100px 100px 100px;
+  border: 50px rgba(242, 111, 36, 0.3) solid;
+  filter: blur(100px);
+}

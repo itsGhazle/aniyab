@@ -1,32 +1,52 @@
 import { Link } from "react-router-dom";
 import Logo from "./Logo";
+import Button from "./Button";
 function Navbar() {
   return (
     <>
-      <nav className="flex flex-row gap-4 w-full fixed p-4 mb-2 bg-slate-50">
-        <Logo />
+      <nav className="flex flex-row gap-4 w-full py-5 p-[72px] justify-between">
         <ul className=" flex flex-1 items-center justify-evenly ">
           <li>
-            <Link to="/">صفحه اصلی</Link>
+            <Logo />
+          </li>
+
+          <li>
+            <select name="services" id="">
+              <option value="service">خدمات</option>
+            </select>
           </li>
           <li>
             <Link to="/shop">فروشگاه</Link>
           </li>
           <li>
-            <Link>وبلاگ</Link>
+            <Link>تماس با ما</Link>
           </li>
-          <li>
-            <Link>پلیکیشن</Link>
-          </li>
-
           <li>
             <Link>وبلاگ</Link>
           </li>
+        </ul>
+        <ul className="flex flex-1 items-center justify-evenly">
           <li>
-            <Link>شارژ</Link>
+            <select name="translate" id="">
+              <option value="Persian" selected>
+                فارسی
+              </option>
+              <option value="English">انگلیسی</option>
+            </select>
           </li>
           <li>
-            <Link>درباره ما</Link>
+            <Button type="primary">
+              <img src="public/Group 3.svg" alt="" />
+              ورود نمایندگان
+            </Button>
+          </li>
+          <li>
+            <Button type="primary" to="">
+              <span>
+                <img src="public/Login.svg" alt="" />
+              </span>
+              <span>ورود یا ثبتنام</span>
+            </Button>
           </li>
         </ul>
       </nav>

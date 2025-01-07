@@ -5,7 +5,7 @@ import SocialMedia from "../UI/SocialMedia";
 
 function AppLayout() {
   return (
-    <div className="grid h-screen grid-rows-[auto_auto_auto]">
+    <div className=" grid h-screen grid-rows-[auto_auto_auto]">
       <Navbar />
       <Outlet />
       <SocialMedia />
