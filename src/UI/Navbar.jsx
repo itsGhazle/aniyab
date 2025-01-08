@@ -29,7 +29,12 @@ function Navbar() {
           <li>
             <select name="translate" id="">
               <option value="Persian" selected>
-                فارسی
+                فارسی{" "}
+                <img
+                  src="public/emojione_flag-for-iran.svg"
+                  alt=""
+                  className="w-8 h-8"
+                />
               </option>
               <option value="English">انگلیسی</option>
             </select>
