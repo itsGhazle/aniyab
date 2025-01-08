@@ -3,7 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      sans: "Vazirmatn, serif",
+      sans: "dana, sans-serif",
     },
     extend: {
       spacing: {
