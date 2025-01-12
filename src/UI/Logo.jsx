@@ -1,7 +1,11 @@
+import { Link } from "react-router-dom";
+
 function Logo() {
   return (
     <>
-      <img src="public/sizeSmall.svg" className="w-7 h-8" />
+      <Link to={"/"}>
+        <img src="public/logoNav.svg" className="w-7 h-8" />
+      </Link>
     </>
   );
 }

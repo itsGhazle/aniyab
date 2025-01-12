@@ -2,8 +2,8 @@ import Button from "./Button";
 
 function Header() {
   return (
-    <div>
-      <main className=" flex flex-col md:flex-row justify-evenly mt-16 mb-4">
+    <div className="bg-[url('public/large bg.png')]">
+      <main className=" flex flex-col md:flex-row justify-evenly mt-16 mb-4 ">
         <section className="w-[518px] h-80 flex flex-col flex-none gap-8">
           <h1 className="text-right text-sky-950 text-5xl font-semibold leading-[60px]  ">
             با آنی یاب،

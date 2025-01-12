@@ -5,12 +5,16 @@ import Navbar from "./Navbar";
 
 function AppLayout() {
   return (
-    <div className=" grid h-screen grid-rows-[auto_auto_auto]">
-      <Navbar />
-      <Outlet />
-      {/* <SocialMedia /> */}
-      <Footer />
-    </div>
+    <>
+      <div className=" grid h-screen grid-rows-[auto_1fr_auto] ">
+        <Navbar />
+        <main className="px-40">
+          <Outlet />
+        </main>
+        {/* <SocialMedia /> */}
+        <Footer />
+      </div>
+    </>
   );
 }
 

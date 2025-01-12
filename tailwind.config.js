@@ -9,6 +9,10 @@ export default {
       spacing: {
         72: "18rem",
       },
+      backgroundImage: {
+        "hero-pattern": "url('public/large bg.png')",
+        // "footer-texture": "url('/img/footer-texture.png')",
+      },
     },
   },
   plugins: [],

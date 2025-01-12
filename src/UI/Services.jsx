@@ -7,7 +7,7 @@ function Services() {
         خدمات ارزشمند
       </h2>
       <section className="flex flex-col justify-center gap-3  md:flex-row md:justify-evenly my-10 ">
-        <div className="w-80 h-96 px-6 pt-10 pb-16 bg-blue-800 rounded-tl-xl rounded-tr-3xl rounded-bl-xl rounded-br-xl flex-col justify-between items-start inline-flex overflow-hidden relative">
+        <div className="w-80 h-96 px-6 pt-10 pb-16 bg-blue-800 rounded-tl-xl rounded-tr-3xl rounded-bl-xl rounded-br-xl flex-col justify-between items-start inline-flex  relative">
           <h2 className="self-stretch text-right text-white text-2xl font-medium leading-10 ">
             اعلام یافتن
           </h2>
@@ -25,7 +25,7 @@ function Services() {
             className="absolute bottom-0 left-0"
           />
         </div>
-        <div className="w-80 h-96 px-6 pt-10 pb-16 bg-blue-800 rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-xl flex-col justify-between items-start inline-flex overflow-hidden relative">
+        <div className="w-80 h-96 px-6 pt-10 pb-16 bg-blue-800 rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-xl flex-col justify-between items-start inline-flex  relative">
           <h2 className="self-stretch text-right text-white text-2xl font-medium leading-10 ">
             اعلام گم‌شده
           </h2>
@@ -43,7 +43,7 @@ function Services() {
             className="absolute bottom-0 left-0"
           />
         </div>
-        <div className="w-80 h-96 px-6 pt-10 pb-16 bg-blue-800 rounded-tl-3xl rounded-tr-xl rounded-bl-xl rounded-br-xl flex-col justify-between items-start inline-flex overflow-hidden relative">
+        <div className="w-80 h-96 px-6 pt-10 pb-16 bg-blue-800 rounded-tl-3xl rounded-tr-xl rounded-bl-xl rounded-br-xl flex-col justify-between items-start inline-flex  relative">
           <h2 className="self-stretch text-right text-white text-2xl font-medium leading-10 ">
             ردیابی تلفن همراه
           </h2>
