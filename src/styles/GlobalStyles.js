@@ -14,6 +14,7 @@ const GlobalStyles = createGlobalStyle`
     --Border-Dark: #D6D3D1;
     --Text-Main: #404040;
     
+    
 }
 `;
 export default GlobalStyles;

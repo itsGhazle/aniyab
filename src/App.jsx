@@ -5,7 +5,7 @@ import ErrorPage from "./pages/ErrorPage";
 import Shop from "./pages/Shop";
 import Blog from "./pages/Blog";
 import GlobalStyles from "./styles/GlobalStyles";
-import News, { loader as newsLoader } from "./pages/News";
+import News from "./pages/News";
 import ContactUs from "./pages/ContactUs";
 const router = createBrowserRouter([
   {
@@ -28,7 +28,6 @@ const router = createBrowserRouter([
       {
         path: "/News",
         element: <News />,
-        loader: newsLoader,
       },
       {
         path: "/contactUs",

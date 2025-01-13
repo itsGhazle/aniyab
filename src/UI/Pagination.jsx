@@ -29,7 +29,7 @@ function Pagination({ count }) {
     <>
       <StyledPagination>
         <PaginationButton>
-          <PaginationImg src="public/Property 1=Default (1).svg" alt="" />
+          <PaginationImg src="public\rightpage.svg" alt="" />
         </PaginationButton>
         <p>
           <span>1</span> تا <span>10</span> از <span>{count}</span>

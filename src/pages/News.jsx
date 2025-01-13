@@ -1,10 +1,8 @@
-import { useLoaderData } from "react-router-dom";
 import Comment from "../UI/Comment";
 import { getNews } from "../services/apiBlog";
 
 function News() {
-  const news = useLoaderData();
-  console.log(news);
+
   return (
     <main>
       <h1>راهنمایی گمشدگان در ایام اربعین حسینی</h1>
@@ -61,8 +59,5 @@ function News() {
     </main>
   );
 }
-export async function loader() {
-  const news = await getNews();
-  console.log(news);
-}
+
 export default News;

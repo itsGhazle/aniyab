@@ -7,9 +7,23 @@ const Form = styled.form`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
+    & > div:nth-child(1) {
+    grid-column: span 2;
+  }
+
+  & > div:nth-child(2),
+  & > div:nth-child(3) {
+    grid-column: span 1; 
+  }
+
+  & > div:nth-child(4),
+  & > div:nth-child(5) {
+    grid-column: span 2; 
+  }
   row-gap: 1rem;
   column-gap: 1rem;
   margin-bottom: 1rem;
+
 `;
 const Div = styled.div`
   display: flex;

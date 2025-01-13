@@ -75,7 +75,7 @@ function Footer() {
               </span>
             </li>
             <li className="inline-flex justify-end items-center">
-              <Link className="inline-flex">
+              <Link className="inline-flex text-[var(--Brand-Primary-Main)]">
                 مسیریابی
                 <img src="public/Left-indigo.svg" alt="" />
               </Link>
@@ -86,7 +86,7 @@ function Footer() {
             </li>
             <li>دفتر فروش:</li>
             <li className="inline-flex justify-end items-center">
-              <Link className="inline-flex">
+              <Link className="inline-flex text-[var(--Brand-Primary-Main)]">
                 مسیریابی
                 <img src="public/Left-indigo.svg" alt="" />
               </Link>
