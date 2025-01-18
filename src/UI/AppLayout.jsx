@@ -8,7 +8,7 @@ function AppLayout() {
     <>
       <div className=" grid h-screen grid-rows-[auto_1fr_auto] ">
         <Navbar />
-        <main className="px-40">
+        <main>
           <Outlet />
         </main>
         {/* <SocialMedia /> */}

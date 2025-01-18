@@ -9,7 +9,7 @@ import Statistics from "../UI/Statistics";
 
 function Homepage() {
   return (
-    <div>
+    <div className="px-40">
       <Header />
       <LostSection />
       <Main />
