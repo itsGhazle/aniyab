@@ -5,7 +5,7 @@ import LatestNews from "../UI/LatestNews";
 import Pagination from "../UI/Pagination";
 import { Link, useLocation } from "react-router-dom";
 import Card from "../UI/Card";
-import BreadCrump from "../UI/BreadCrump";
+import BreadCrumb from "../UI/BreadCrumb";
 
 const Main = styled.main`
   display: grid;
@@ -34,7 +34,7 @@ const P = styled.p`
 function Blog({ image, title, description, date }) {
   return (
     <Main>
-      <BreadCrump />
+      <BreadCrumb />
       <header>
         <StyledLink>
           <img src="/Right 1.svg" alt="" /> <span>وبلاگ آنی یاب</span>
