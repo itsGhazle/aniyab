@@ -11,8 +11,10 @@ const GlobalStyles = createGlobalStyle`
     --Text-Secondary: #737373;
     --Text-Main: #404040;
     --Text-Contrast: #fff;
+    --Text-Disable: #BBBAB9;
     --White: #FFF;
     --BG-White: #fff;
+    --BG-dark: #F4F4F5;
     --Border-Dark: #D6D3D1;
     --Border-Light: #e7e5e4;
     

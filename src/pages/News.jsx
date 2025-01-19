@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Comment from "../UI/Comment";
+import NewComment from "../UI/NewComment.jsx";
 import { Link } from "react-router-dom";
 const Main = styled.main`
   display: grid;
@@ -111,16 +111,17 @@ function News() {
             مردم از طریق سایت کارت سوخت جامانده scs.niopdc.ir قابل پیگیری می
             باشد.
           </p>
+          <NewComment
+              header={
+                "آدرس ایمیل و شماره تماس شما منتشر نخواهد شد. فیلدهای مورد نیاز علامت گذاری شده است"
+              }
+          />
         </BodySection>
         <section>
           <TableOfContent>عنوان دوم H2</TableOfContent>
         </section>
       </Section>
-      <Comment
-        header={
-          "آدرس ایمیل و شماره تماس شما منتشر نخواهد شد. فیلدهای مورد نیاز علامت گذاری شده است"
-        }
-      />
+
     </Main>
   );
 }
