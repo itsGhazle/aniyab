@@ -11,11 +11,17 @@ const GlobalStyles = createGlobalStyle`
     --Text-Secondary: #737373;
     --Text-Main: #404040;
     --Text-Contrast: #fff;
+    --White: #FFF;
     --BG-White: #fff;
     --Border-Dark: #D6D3D1;
-    --Border-Light: #e7e5e4
+    --Border-Light: #e7e5e4;
     
     
+    /* Shadow/xs */
+    --shadow-xs:0px 1px 2px 0px rgba(10, 13, 18, 0.05) ;
+
+
+
 }
 `;
 export default GlobalStyles;
