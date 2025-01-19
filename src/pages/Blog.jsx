@@ -3,8 +3,9 @@
 import styled from "styled-components";
 import LatestNews from "../UI/LatestNews";
 import Pagination from "../UI/Pagination";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Card from "../UI/Card";
+import BreadCrump from "../UI/BreadCrump";
 
 const Main = styled.main`
   display: grid;
@@ -14,6 +15,9 @@ const Main = styled.main`
   padding: 2rem 5rem;
 `;
 const StyledLink = styled(Link)`
+  display: inline-flex;
+  flex-direction: row;
+  gap: 0.5rem;
   color: var(--Text-Title);
   font-size: 1.5rem;
   font-style: normal;
@@ -30,9 +34,10 @@ const P = styled.p`
 function Blog({ image, title, description, date }) {
   return (
     <Main>
+      <BreadCrump />
       <header>
         <StyledLink>
-          <img src="public\rightpage.svg" alt="" /> وبلاگ آنی یاب
+          <img src="/Right 1.svg" alt="" /> <span>وبلاگ آنی یاب</span>
         </StyledLink>
         <P>
           آخرین اخبار مربوط به مدارک و اسناد و هرچی باید بیشتر به متنش فکر کنم
