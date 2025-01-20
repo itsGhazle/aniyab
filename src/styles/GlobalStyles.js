@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
     --Text-Main: #404040;
     --Text-Contrast: #fff;
     --Text-Disable: #BBBAB9;
+    --Text-Tertiary: #A3A3A3;
     --White: #FFF;
     --BG-White: #fff;
     --BG-dark: #F4F4F5;

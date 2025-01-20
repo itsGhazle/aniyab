@@ -7,6 +7,7 @@ import Blog from "./pages/Blog";
 import GlobalStyles from "./styles/GlobalStyles";
 import News from "./pages/News";
 import ContactUs from "./pages/ContactUs";
+import Loginpage from "./pages/Loginpage";
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
         element: <ContactUs />,
       },
     ],
+  },
+  {
+    path: "/login",
+    element: <Loginpage />,
   },
 ]);
 

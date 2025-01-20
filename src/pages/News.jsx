@@ -6,7 +6,9 @@ const Main = styled.main`
   grid-template-rows: repeat(3, auto);
   justify-content: center;
   justify-items: center;
+  align-items: center;
   gap: 2rem;
+  padding: 2rem 5rem;
 `;
 const H1 = styled.h1`
   color: var(--Text-Title);
@@ -71,16 +73,17 @@ const BodySection = styled.section`
   flex-direction: column;
   gap: 1.5rem;
 `;
+
 function News() {
   return (
     <Main>
-      <div>
+      <ddiv>
         <H1>پیگیری کارت های سوخت جامانده توسط سامانه آنی یاب</H1>
         <Date>انتشار: ۱۲ خرداد ۱۴۰۳</Date>
         <StyledLink>کارت سوخت</StyledLink>
         <StyledLink>پیگیری گم شده</StyledLink>
         <StyledLink>یه تگ دیگه </StyledLink>
-      </div>
+      </ddiv>
       <img src="/Card.png" alt="" />
       <Section>
         <BodySection>
@@ -112,16 +115,15 @@ function News() {
             باشد.
           </p>
           <NewComment
-              header={
-                "آدرس ایمیل و شماره تماس شما منتشر نخواهد شد. فیلدهای مورد نیاز علامت گذاری شده است"
-              }
+            header={
+              "آدرس ایمیل و شماره تماس شما منتشر نخواهد شد. فیلدهای مورد نیاز علامت گذاری شده است"
+            }
           />
         </BodySection>
         <section>
           <TableOfContent>عنوان دوم H2</TableOfContent>
         </section>
       </Section>
-
     </Main>
   );
 }
