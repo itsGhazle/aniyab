@@ -68,7 +68,7 @@ const Title = styled.h2`
   font-weight: 500;
   line-height: 2.5rem; /* 166.667% */
 `;
-function Card({ post }) {
+function Card() {
   return (
     <>
       <Title>همه مطالب</Title>
@@ -77,8 +77,11 @@ function Card({ post }) {
           <img src="/Card.png" alt="" />
           <CardDescription>
             <Date>انتشار: ۱۲ خرداد ۱۴۰۳</Date>
-            <H2>{post.title}</H2>
-            <P>{post.body}</P>
+            <H2>پیگیری کارت های سوخت جامانده توسط سامانه آنی یاب</H2>
+            <P>
+              سوال مهمی که برای افراد وجود دارد این است که نحوه ورود به سامانه و
+              پیگیری کارت سوخت جامانده از طریق آنی یاب چگونه است؟
+            </P>
             <div>
               <StyledLink>کارت سوخت</StyledLink>
               <StyledLink>پیگیری گم شده</StyledLink>

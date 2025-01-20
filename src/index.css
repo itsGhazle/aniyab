@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --Brand-Primary-Dark:#022251;
-  --Brand-Primary-Main:#002D71;
+/* :root {
+  --Brand-Primary-Dark: #022251;
+  --Brand-Primary-Main: #002d71;
   --Brand-Secondary-Dark: #ed5904;
   --Brand-Primary-Paler: #ebf1fb;
   --Brand-Primary-Main: #002d71;
@@ -12,24 +12,23 @@
   --Text-Secondary: #737373;
   --Text-Main: #404040;
   --Text-Contrast: #fff;
-  --Text-Disable: #BBBAB9;
-  --White: #FFF;
+  --Text-Disable: #bbbab9;
+  --White: #fff;
   --BG-White: #fff;
-  --BG-dark: #F4F4F5;
-  --Border-Dark: #D6D3D1;
-  --Border-Light: #e7e5e4;
+  --BG-dark: #f4f4f5;
+  --Border-Dark: #d6d3d1;
+  --Border-Light: #e7e5e4; */
 
-
-  /* Shadow/xs */
-  --shadow-xs:0px 1px 2px 0px rgba(10, 13, 18, 0.05) ;
-}
-* {
+/* Shadow/xs */
+/* --shadow-xs: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+} */
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
-body {
+/* body {
   direction: rtl;
   color: var(--color-light--2);
   font-weight: 400;
@@ -39,7 +38,7 @@ body {
   background-image: url("public/large bg.png"),
     url("public/large bg-rotate.png");
   background-repeat: no-repeat;
-}
+} */
 /* .circle {
   width: 706.02px;
   height: 706.02px;
@@ -68,7 +67,7 @@ body {
   right: 0px;
   top: 0px;
 } */
-.select-items {
+/* .select-items {
   position: absolute;
   display: none;
   background-color: #d88181;
@@ -76,7 +75,7 @@ body {
   border-radius: 4px;
   z-index: 1;
   width: 100%;
-}
+} */
 
 /* .gradient-circle {
   width: 706.02px;

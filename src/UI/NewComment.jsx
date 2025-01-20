@@ -27,6 +27,10 @@ const TextArea = styled.textarea`
   &:focus {
     outline: none;
   }
+  &::before {
+    content: "◀";
+    margin: 0 10px;
+  }
 `;
 const Span = styled.span`
   color: var(--Text-Secondary, #737373);

@@ -43,7 +43,7 @@ function Blog({ image, title, description, date }) {
           آخرین اخبار مربوط به مدارک و اسناد و هرچی باید بیشتر به متنش فکر کنم
         </P>
       </header>
-      <LatestNews date={date} />
+      <LatestNews />
 
       <Card />
       <Pagination count={15} />

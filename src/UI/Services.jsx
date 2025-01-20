@@ -1,13 +1,39 @@
+import styled from "styled-components";
 import Button from "./Button";
-
+const Section = styled.section`
+  display: flex;
+  padding: 2.5rem 1.5rem 4rem 1.5rem;
+  justify-content: space-between;
+  gap: 0.75rem;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+  }
+`;
+const Div = styled.div`
+  display: flex;
+  width: 19.5rem;
+  height: 22.25rem;
+  padding: 2.5rem 1.5rem 4rem 1.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-radius: 3.75rem 0.75rem 0.75rem 0.75rem;
+  background: var(--Brand-Primary-Light);
+  @media (max-width: 768px) {
+    width: 328px;
+    height: 208px;
+  }
+`;
 function Services() {
   return (
     <main className="">
       <h2 className=" text-center text-zinc-800 text-2xl font-medium leading-10 mt-20 mb-8">
         خدمات ارزشمند
       </h2>
-      <section className="flex flex-col justify-center gap-3  md:flex-row md:justify-evenly my-10 ">
-        <div className="w-80 h-96 px-6 pt-10 pb-16 bg-blue-800 rounded-tl-xl rounded-tr-3xl rounded-bl-xl rounded-br-xl flex-col justify-between items-start inline-flex  relative">
+      <Section>
+        <Div className="w-80 h-96 px-6 pt-10 pb-16 bg-blue-800 rounded-tl-xl rounded-tr-3xl rounded-bl-xl rounded-br-xl flex-col justify-between items-start inline-flex  relative">
           <h2 className="self-stretch text-right text-white text-2xl font-medium leading-10 ">
             اعلام یافتن
           </h2>
@@ -24,7 +50,7 @@ function Services() {
             alt=""
             className="absolute bottom-0 left-0"
           />
-        </div>
+        </Div>
         <div className="w-80 h-96 px-6 pt-10 pb-16 bg-blue-800 rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-xl flex-col justify-between items-start inline-flex  relative">
           <h2 className="self-stretch text-right text-white text-2xl font-medium leading-10 ">
             اعلام گم‌شده
@@ -61,7 +87,7 @@ function Services() {
             className="absolute bottom-0 left-0"
           />
         </div>
-      </section>
+      </Section>
     </main>
   );
 }
